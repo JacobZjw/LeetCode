@@ -9,7 +9,8 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         int[] arr = new int[]{5, 1, 6, 2, 4};
-        Sort sort = new ShellSort();
+        Sort sort = new HeapSort();
+        System.out.println(Arrays.toString(sort.sort(new int[]{87, 45, 78, 32, 17, 65, 53, 9, 122, 133})));
         System.out.println(Arrays.toString(sort.sort(arr)));
     }
 }
